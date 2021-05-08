@@ -2,8 +2,14 @@
 layout: default
 title: "Happy Jekylling!"
 ---
-
-<div class="wrapper">
+<div>
+<div class="vrph-bg">
+<img src="assets/img/vrph2019.jpg">
+</div>
+<div class="overlay"></div>
+</div>
+<div id="white-space-1"></div>
+<div class="wrapper white-bg">
 <p>Since the start of the automated election system in the Philippines, watchdog groups or anyone interested in guarding and ensuring a democratic election faced a wall of lack in transparency, from the logistical preparations monopolized by Smartmatic-TIM, up to the transmission of votes on election day itself. The Commission on Elections (COMELEC), with its track record of mercenary transactions, has done little to alleviate its drought in credibility. Efforts to empower the Filipino people with information, as well as mobilizing them to lobby for a better, safer and more transparent implementation of the automated election system (AES) and to go out and protect their votes should be promoted and strengthened.</p>
 
 <p>The global trend of democratization insofar as accessibility to modern technology goes has rapidly grown, which has made the communication of information more and more decentralized from giant outfits. Gone are the days when information and knowledge could only come from legacy media and the academe. New Media, especially social media, has transformed every receiver of information into content providers themselves. As of 2018, the number of Filipinos who use social media reached 76 million. In the same year, the average number of hours Filipinos have spent on social media was 4 hours and 8 minutes, ranking as number one in global statistics for seven years since 2012 making the Philippines the social media capital of the world.</p>
@@ -12,9 +18,10 @@ title: "Happy Jekylling!"
 
 <p>Despite the hijacking attempts of marketing firms and other groups of the social media, new media—especially social media—is still an effective multi-purpose tool in pursuing reforms in the electoral experience of the Philippines, particularly in educating voters in the political and technical concerns of the AES, monitoring fraud, and documenting problems on election day.</p>
 </div>
+
 <div style="background-color:#eee;padding-top:1.5em;padding-bottom:2em;">
 <div class="wrapper">
-<h1>What is VoteReportPH?</h1>
+<h2>What is VoteReportPH?</h2>
 
 <p>Formed in 2010, VoteReportPH started as a grassroots-based electoral campaign by the Computer Professionals’ Union during the first national automated election in the country. It aimed to inform, organize, and mobilize the Filipino people to push for meaningful reforms in the elections with the aid of new media technology. It sought to orient the masses on the nature of Philippine elections in the context of electronic voting, as well as monitor and document occurrences of electoral fraud and other problems related to the AES.</p>
 
@@ -22,7 +29,7 @@ title: "Happy Jekylling!"
 </div>
 </div>
 <h3 class="center-label">VoteReportPh has the following components</h3>
-<div >
+<div class="container" >
   <div class="row">
     <a class="row-item">
       <div class="row-item">

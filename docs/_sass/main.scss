@@ -12,6 +12,10 @@ $color-text-gray: #303030;
 $def-font-family: Epilogue, Roboto, sans-serif;
 $def-font-size:   1em;
 
+@function divide($a, $b) {
+  @return $a / $b;
+}
+
 body {
   background: $backgroundColor;
   color: $bodyColor;
@@ -19,6 +23,11 @@ body {
   font-size: 1.5em;
   line-height: 1.5em;
   margin: 0px;
+  width: 100vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1em;
 }
 
 a {
@@ -34,13 +43,18 @@ a {
   }
 }
 
+p {
+  margin: 0;
+  padding-bottom: 1em;
+}
+
 // header
 .navbar {
   padding: 2em;
   display: flex;
 }
 
-img#logo {
+img.logo {
   max-height: 100px;
 }
 
@@ -65,33 +79,42 @@ footer {
 }
 
 // body
+.vrph-bg {
+  position: absolute;
+  z-index: -1;
+  opacity: .2;
+  img {
+      width: 100vw;
+      height: 52vw;
+  }
+}
+.overlay {
+  position: absolute;
+  width: 100vw;
+  height: 52vw;
+  background-color: $color-dark-blue;
+  z-index: -2;
+}
+#white-space-1 {
+  height: 28vw;
+}
+.white-bg {
+  padding: 2em;
+  background-color: $color-white;
+  border-radius: 24px;
+}
+
 .center-label {
   text-align: center;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: .5em 0;
 }
-div.row-item {
-  width: 400px;
-  margin: 2em;
-  div {
-    padding: .5em 0;
-  }
-  .icon {
-    font-size: 5em;
-    text-align: center;
-  }
-  .list-title {
-    font-weight: bold;
-    font-size: 1.5em;
-  }
-  .list-desc{
-    text-align: justify;
-  }
-}
+
 a.row-item {
   color: $color-text-gray;
   margin: 0 .5em;
@@ -107,15 +130,78 @@ a.row-item {
 }
 
 //
-@media (min-width: 78em) {
+@media (min-width: 1024px) {
+  div.navbar {
+    justify-content: space-between;
+  }
+  div#nav {
+    font-size: 3em;
+    text-align: right;
+    align-self: center;
+  }
   .wrapper {
     width: 800px;
     margin: 0 auto;
   }
+
+  div.row-item {
+    width: 380px;
+    margin: 2em;
+    div {
+      padding: .5em 0;
+    }
+    .icon {
+      font-size: 5em;
+      text-align: center;
+    }
+    .list-title {
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    .list-desc{
+      text-align: justify;
+    }
+  }
 }
 
-@media screen and (max-width: 78em) {
+@media screen and (max-width: 1023px) {
+  body {
+    font-size: 1.25em;
+    line-height: 1.3em;
+  }
   .wrapper {
-    margin: 0 2em;
+    margin: 0 1em;
+  }
+  .white-bg {
+    padding: 1em;
+  }
+
+  .navbar {
+    padding: 1.5em;
+  }
+  img.logo {
+    max-width: 80vw;
+  }
+  div.logo {
+    margin: auto;
+  }
+
+  div.row-item {
+    max-width: 92vw;
+    margin: 2em;
+    div {
+      padding: .5em 0;
+    }
+    .icon {
+      font-size: 5em;
+      text-align: center;
+    }
+    .list-title {
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    .list-desc{
+      text-align: justify;
+    }
   }
 }
