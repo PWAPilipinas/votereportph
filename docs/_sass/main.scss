@@ -49,11 +49,6 @@ p {
 }
 
 // header
-.navbar {
-  padding: 2em;
-  display: flex;
-}
-
 img.logo {
   max-height: 100px;
 }
@@ -131,7 +126,10 @@ a.row-item {
 
 //
 @media (min-width: 1024px) {
+  //header
   div.navbar {
+    padding: 2em;
+    display: flex;
     justify-content: space-between;
   }
   div#nav {
@@ -178,12 +176,21 @@ a.row-item {
 
   .navbar {
     padding: 1.5em;
+    display: block;
   }
   img.logo {
     max-width: 80vw;
   }
   div.logo {
-    margin: auto;
+    text-align: center;
+  }
+  div#nav {
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 2em;
+    span {
+      margin: 0 .3em;
+    }
   }
 
   div.row-item {
