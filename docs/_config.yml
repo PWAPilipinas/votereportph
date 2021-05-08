@@ -1,6 +1,7 @@
 url: "votereportph.cp-union.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "VoteReportPH" # the name of your site, e.g. ACME Corp.
+description: "VoteReportPH will once again be at the forefront of one of the pillars of our exercise of democracy—the electoral process."
 
 #social Media
 twitter_handle: "VoteReportPH"
