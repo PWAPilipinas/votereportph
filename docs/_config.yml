@@ -1,1 +1,7 @@
-theme: jekyll-theme-cayman
+url: "votereportph.cp-union.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "VoteReportPH" # the name of your site, e.g. ACME Corp.
+
+#social Media
+twitter_handle: "VoteReportPH"
+facebook: "VoteReportPH"
