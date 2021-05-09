@@ -25,7 +25,7 @@ title: "Happy Jekylling!"
 
 <p>Formed in 2010, VoteReportPH started as a grassroots-based electoral campaign by the <a href="https://www.cp-union.com" target="#">Computer Professionals’ Union</a> during the first national automated election in the country. It aimed to inform, organize, and mobilize the Filipino people to push for meaningful reforms in the elections with the aid of new media technology. It sought to orient the masses on the nature of Philippine elections in the context of electronic voting, as well as monitor and document occurrences of electoral fraud and other problems related to the AES.</p>
 
-<p>With the upcoming 2022 national elections, VoteReportPH will once again be at the forefront of one of the pillars of our exercise of democracy—the electoral process. With the capability and expertise of the ICT sector in the field of new media technology, especially social media, and the AES, its potential to bring significant contributions to a better Philippine elections is crucial. Buoyed by the lessons learned from the previous 2 incarnations of the campaign with the elections relying on AES, the scale can no longer be sufficiently covered by CPU alone. There is also a need for VoteReport PH to provide a more comprehensive, multi-perspective, and representative view of the elections from the ICT sector, which would require more hands on deck to accomplish. Additional people on board would also help ensure that the campaign can monitor and cover as much ground as possible. Hence, VoteReportPH will become an alliance of ICT organizations and individuals in order to engage more from the ICT community to participate in the electoral process. Partnerships with different organizations and individuals outside the ICT sector will still be done in order to inform, organize and mobilize the grassroots.</p>
+<p>With the upcoming 2022 national elections, VoteReportPH will once again be at the forefront of one of the pillars of our exercise of democracy—the electoral process. With the capability and expertise of the ICT sector in the field of new media technology, especially social media, and the AES, its potential to bring significant contributions to a better Philippine elections is crucial. Buoyed by the lessons learned from the previous 2 incarnations of the campaign with the elections relying on AES, the scale can no longer be sufficiently covered by CPU alone. There is also a need for VoteReport PH to provide a more comprehensive, multi-perspective, and representative view of the elections from the ICT sector, which would require more hands on deck to accomplish. Additional people on board would also help ensure that the campaign can monitor and cover as much ground as possible. Hence, VoteReportPH will become an <b>alliance of ICT organizations and individuals</b> in order to engage more from the ICT community to participate in the electoral process. Partnerships with different organizations and individuals outside the ICT sector will still be done in order to inform, organize and mobilize the grassroots.</p>
 </div>
 </div>
 <h3 class="center-label">VoteReportPh has the following components</h3>
@@ -61,5 +61,14 @@ title: "Happy Jekylling!"
         <div class="list-desc">It will be a web-based fraud and error monitoring initiative during the election proper where volunteers and concerned citizens from precincts nationwide will report in real-time all documented cases of fraud and technical errors to the website, where their reports will be processed and be visualized.</div>
       </div>
     </a>
+  </div>
+</div>
+<div class="contact white-anchor">
+  <h2>Join VoteReportPH!</h2>
+  <p>Interested individuals and organizations can email us at <a>votereportph@cp-union.com</a>.</p>
+  <p>We can also be reached on social media:</p>
+  <div>
+    <span><a href="https://www.facebook.com/{{site.facebook}}" target="#"><i class="fab fa-facebook"></i></a></span>
+    <span><a href="https://twitter.com/{{site.twitter_handle}}" target="#"><i class="fab fa-twitter"></i></a></span>
   </div>
 </div>

@@ -12,8 +12,17 @@ $color-text-gray: #303030;
 $def-font-family: Epilogue, Roboto, sans-serif;
 $def-font-size:   1em;
 
-@function divide($a, $b) {
-  @return $a / $b;
+@mixin white-anchor {
+  a {
+    color: $color-white;
+    &:hover {
+      color: $color-gold;
+      text-decoration: none;
+    }
+    &:visited {
+      color: $color-white;
+    }
+  }
 }
 
 body {
@@ -32,13 +41,14 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: $color-blue;
+  font-weight: 700;
   text-decoration: none;
 
   &:visited {
     color: $color-dark-blue;
   }
   &:hover {
-    color: $color-dark-blue;
+    color: $color-red;
     text-decoration: underline;
   }
 }
@@ -59,15 +69,7 @@ footer {
   color: $color-white;
   padding: 2em;
   text-align: right;
-  a {
-    color: $color-white;
-    &:hover {
-      color: $color-gold;
-    }
-    &:visited {
-      color: $color-white;
-    }
-  }
+  @include white-anchor;
   span {
     padding: 0 .5em 0 0;
   }
@@ -102,6 +104,9 @@ footer {
 .center-label {
   text-align: center;
 }
+.white-anchor {
+  @include white-anchor;
+}
 
 .row {
   display: flex;
@@ -121,6 +126,17 @@ a.row-item {
   &:visited {
     color: $color-text-gray;
     text-decoration: none;
+  }
+}
+
+.contact {
+  background-color: $color-blue;
+  padding: 1.5em 1.5em 2em 1.5em;
+  text-align: center;
+  color: $color-white;
+  span {
+    font-size: 1.5em;
+    margin: 0 8px;
   }
 }
 
@@ -158,6 +174,7 @@ a.row-item {
     }
     .list-desc{
       text-align: justify;
+      font-weight: 300;
     }
   }
 }
@@ -209,6 +226,13 @@ a.row-item {
     }
     .list-desc{
       text-align: justify;
+      font-weight: 300;
+    }
+  }
+
+  footer {
+    span {
+      font-size: 1.5em;
     }
   }
 }
