@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Happy Jekylling!"
 ---
 <div>
 <div class="vrph-bg">
