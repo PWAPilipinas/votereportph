@@ -67,5 +67,6 @@ layout: default
   <div>
     <span><a href="https://www.facebook.com/{{site.facebook}}" target="#"><i class="fab fa-facebook"></i></a></span>
     <span><a href="https://twitter.com/{{site.twitter_handle}}" target="#"><i class="fab fa-twitter"></i></a></span>
+    <span><a href="https://www.instagram.com/{{site.instagram}}" target="#"><i class="fab fa-instagram"></i></a></span>
   </div>
 </div>
