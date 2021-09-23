@@ -1,3 +1,21 @@
 ---
 layout: default
 ---
+<div class="wrapper">
+  <h2>{{ page.title }}</h2>
+  {% if page.subtitle %}
+    <p class="">{{ page.subtitle }}</p>
+  {% endif %}
+  <div class="meta-data">
+    <small>{{ page.date | date: "%-d %B %Y" }}</small>
+  </div>
+  <div class="share-buttons">
+  {% include snsshare.html %}
+  </div>
+  <div class="post-body">
+    {{content}}
+  </div>
+  <div class="share-buttons">
+  {% include snsshare.html %}
+  </div>
+</div>

@@ -7,3 +7,17 @@ description: "VoteReportPH will once again be at the forefront of one of the pil
 twitter_handle: "VoteReportPH"
 facebook: "VoteReportPH"
 instagram: "VoteReportPH"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+        layout: "post"
+        permalink: "/:year/:month/:day/:title"
+        excerpt_separator: <!--more-->
+
+#pagination
+paginate: 5
+paginate_path: "/publications/page:num/"
